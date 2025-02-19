@@ -1,0 +1,19 @@
+{
+    "scripts": {
+        "format": "prettier --write \"src/**/*.ts\"",
+        "format:check": "prettier --check \"src/**/*.ts\""
+    },
+    "devDependencies": {
+        "@rocket.chat/apps-engine": "^1.44.0",
+        "@trivago/prettier-plugin-sort-imports": "^5.2.1",
+        "@types/node": "14.14.6",
+        "prettier": "^3.4.2",
+        "prettier-plugin-organize-imports": "^4.1.0",
+        "tslint": "^5.10.0",
+        "typescript": "^5.6.2"
+    },
+    "dependencies": {
+        "@rocket.chat/icons": "^0.38.0",
+        "@rocket.chat/ui-kit": "^0.36.1"
+    }
+}

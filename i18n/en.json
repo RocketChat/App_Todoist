@@ -1,0 +1,5 @@
+{
+    "slashcommand_params": "task,tasks,projects,sections,labels,shared-labels",
+    "slashcommand_description": "Manage your Todoist items, use /todoist command.",
+	"create_todoist_task": "✏️ Create Todoist Task"
+}

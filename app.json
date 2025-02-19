@@ -1,0 +1,54 @@
+{
+    "id": "4aa6fac2-9b08-44a3-9436-4eaab19d6cc4",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.44.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Jannat Khan",
+        "homepage": "jannatkhan.xyz",
+        "support": "jannatkhan.xyz"
+    },
+    "name": "Todoist",
+    "nameSlug": "todoist",
+    "classFile": "TodoistApp.ts",
+    "description": "Todoist Integration for Rocket.Chat",
+    "permissions": [
+        {
+            "name": "ui.registerButtons"
+        },
+        {
+            "name": "api"
+        },
+        {
+            "name": "slashcommand"
+        },
+        {
+            "name": "server-setting.read"
+        },
+        {
+            "name": "room.read"
+        },
+        {
+            "name": "persistence"
+        },
+        {
+            "name": "ui.interact"
+        },
+        {
+            "name": "networking"
+        },
+        {
+            "name": "message.write"
+        },
+        {
+            "name": "user.read"
+        },
+        {
+            "name": "room.write"
+        },
+        {
+            "name": "message.read"
+        }
+    ],
+    "implements": []
+}
